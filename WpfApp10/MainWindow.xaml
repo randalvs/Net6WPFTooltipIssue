@@ -1,0 +1,21 @@
+﻿<Window
+    x:Class="WpfApp10.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp10"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <TextBox
+            Width="500"
+            Height="40"
+            Background="LightGray"
+            Text="Move the mouse pointer inside this textbox, move it outside and finally move it inside again..."
+            ToolTip="This is the tooltip!" />
+
+    </Grid>
+</Window>
